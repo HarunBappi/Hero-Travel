@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* Shared style  */
+body {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --h3-color: #131318;
+  --p-color: rgba(19, 19, 24, 0.7);
+}
+.full-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.span {
+  color: #ff5400;
+}
+.extra-bold {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.btn-primary {
+  background-color: #ff5400;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/* NavBar Style in CSS */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+}
+.nav-content > img {
+  max-width: 50px;
+  max-height: 55px;
+  margin-right: 15px;
+}
+.nav-name {
+  font-weight: 800;
+  font-size: 2.25rem;
+}
+.nav-item {
+  display: flex;
+  gap: 40px;
+}
+.nav-item > li {
+  list-style: none;
+}
+.nav-item > li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.25rem;
+}
+
+/* Hero-Container Style in CSS */
+.hero-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/hero.png");
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+  border-radius: 16px;
+}
+.hero-content {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.hero-title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.hero-description {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #ffffff;
+  max-width: 750px;
+  line-height: 1.8rem;
+}
+.hero-inputs {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+.hero-inputs > input,
+select {
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  padding: 0px 16px;
+  color: rgba(19, 19, 24, 0.5);
+}
